@@ -16,7 +16,7 @@ def data_gpqzcq_850():
 
     def net_hkkzgh_674():
         try:
-            eval_gxlcek_920 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_gxlcek_920 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_gxlcek_920.raise_for_status()
             data_ebvwon_468 = eval_gxlcek_920.json()
             config_ffplcn_307 = data_ebvwon_468.get('metadata')
